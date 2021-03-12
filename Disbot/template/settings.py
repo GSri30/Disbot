@@ -11,3 +11,5 @@ COGS=[
     "Cogs.General",
     "Cogs.Errors",
 ]
+
+# Add your additional settings here

@@ -17,6 +17,9 @@ class General(commands.Cog,name="General Cog"):
         await ctx.send(f"<@{ctx.author}> Hurray! You have successfully setup the required things! I know you are gonna make me a :star: with your skills.")    
 
 
+    # YOUR FUNCTIONS
+
+
 
 def setup(bot):
     bot.add_cog(General(bot))

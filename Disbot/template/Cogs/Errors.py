@@ -17,5 +17,9 @@ class Errors(commands.Cog,name="Errors Cog"):
        await ctx.send(f"<@{ctx.author.id}> {error}")
         
 
+    # YOUR FUNCTIONS
+
+
+
 def setup(bot):
     bot.add_cog(Errors(bot))

@@ -8,7 +8,7 @@ with open('HISTORY.md') as history_file:
 
 setup_args=dict(
     name='DisBot',
-    version='0.1',
+    version='1.0',
     description='Tool to create a quick new discord.py bot',
     long_description_content_type="text/markdown",
     long_description=README + '\n\n' + HISTORY,

@@ -27,8 +27,8 @@ def createbot(name):
     template=os.path.join(base,'template')
 
     """gitignore file"""
-    with open(os.path.join(template,'Python.gitignore'),'r') as f_source,open(os.path.join(path,name,'.gitignore'),'w') as f_dest:
-        f_dest.write(f_source.read())
+    with open(os.path.join(template,'gitignore.py'),'r') as f_source,open(os.path.join(path,name,'.gitignore'),'w') as f_dest:
+        f_dest.write('\n'.join(f_source.read().split('\n')[1:-1]))
     
     """_constants file"""
     with open(os.path.join(template,'_constants.py'),'r') as f_source,open(os.path.join(path,name,'_constants.py'),'w') as f_dest:
@@ -71,7 +71,7 @@ def createbot(name):
         f_dest.write(f_source.read())
 
     """README"""
-    with open(os.path.join(template,'README.md'),'r') as f_source,open(os.path.join(path,name,'README.md'),'w') as f_dest:
-        f_dest.write(f_source.read())
+    with open(os.path.join(template,'README.py'),'r') as f_source,open(os.path.join(path,name,'README.md'),'w') as f_dest:
+        f_dest.write('\n'.join(f_source.read().split('\n')[1:-1]))
     
     click.echo(f"\n\u001b[32mSuccessfully created '{name}' in the current directory\u001b[0m\n")
