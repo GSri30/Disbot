@@ -1,3 +1,0 @@
-[console_scripts]
-disbot-admin = Disbot.cli:Main
-
