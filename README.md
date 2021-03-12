@@ -1,6 +1,6 @@
 # Disbot
 
-Disbot is a simple discord py app template generator which helps you to concentrate on implementing the actual commands rather than handling abstraction of commands.
+[Disbot](https://pypi.org/project/DisBot/) is a simple discord py app template generator which helps you to concentrate on implementing the actual commands rather than handling abstraction of commands.
 
 ## Commands
 
